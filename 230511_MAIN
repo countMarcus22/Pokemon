@@ -3,7 +3,7 @@ let username, password, role;
 function login() {
   username = prompt("Please enter your username:");
   password = prompt("Please enter your password:");
-  role = prompt("Enter your role (admin, teacher, student):");
+  role = prompt("Please enter your role (admin, teacher, student):");
 
 
   if (!username || !password || !role) {
